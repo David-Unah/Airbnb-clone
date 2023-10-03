@@ -4,7 +4,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='hero-container'>
-        <img src="../images/Group77.png"
+        <img src="./images/Group77.png"
              alt='hero images'
              className='heroImages'
         />

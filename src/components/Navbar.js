@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <nav>
-        <img src="../images/airbnb1.png"
+        <img src="./images/airbnb1.png"
              alt='airbnb logo'
         />
     </nav>
