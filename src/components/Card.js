@@ -14,7 +14,7 @@ const Card = (props) => {
           <p className="rating-p">
             {props.item.stats.rating}{" "}
             <span className="state-rate">
-              ({props.item.stats.statsReview}) . {props.item.location}
+              ({props.item.stats.reviewCount}) . {props.item.location}
             </span>
           </p>
         </div>
