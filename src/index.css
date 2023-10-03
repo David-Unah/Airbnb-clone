@@ -1,13 +1,127 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding: 0px 30px;
+    box-shadow: 0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.10)
+}
+
+.hero-container {
+    margin-top: 53px;
+    padding-left: 36px;
+}
+
+.heroImages {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 53px;
+    margin-bottom: 32px;
+    line-height: 110%; /* 39.6px */
+}
+
+.oe-p {
+    color: #222;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 110%; /* 17.6px */
+}
+
+
+span {
+    display: block;
+}
+
+.cardBox {
+    display: flex;
+    overflow: auto;
+    cursor: grab;
+}
+
+.individual--cards {
+    width: 266px;
+    margin: 32px 37px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.coverPhoto {
+    width: 264px;
+    height: 353px;
+}
+
+
+
+.picture--box {
+    position: relative;
+}
+
+
+.sold-out {
+    position: absolute;
+    margin-left: 8px;   
+    padding: 7px;
+    top: 8px;
+    background: #fff;
+    border-radius: 2px;
+    z-index: 1;
+    color: #222;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.star--box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 9px;
+}
+
+
+
+.rating-p {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 110%; /* 13.2px */
+    padding-top: 5px;
+    }
+
+.state-rate {
+    display: inline;
+    color: #918E9B;
+}
+
+h2, .amount, .amount--p {
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;    
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%; /* 13.2px */
+    margin-top: 12px;
+}
+
+.amount {
+    display: inline;
+}
+
+.amount--p {
+    font-weight: 200;
 }
