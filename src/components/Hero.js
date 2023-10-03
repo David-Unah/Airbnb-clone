@@ -1,10 +1,10 @@
 import React from 'react'
-import heroImages from '../images/Group77.png'
+/* import heroImages from '../images/Group77.png' */
 
 const Hero = () => {
   return (
     <div className='hero-container'>
-        <img src={heroImages}
+        <img src="../images/Group77.png"
              alt='hero images'
              className='heroImages'
         />

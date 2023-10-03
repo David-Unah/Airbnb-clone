@@ -1,5 +1,5 @@
 import React from "react";
-import Star from "../images/Star1.png";
+/* import Star from "../images/Star1.png"; */
 
 const Card = (props) => {
   return (
@@ -10,7 +10,7 @@ const Card = (props) => {
       </div>
       <div>
         <div className="star--box">
-          <img src={Star} alt="star" className="star" />
+          <img src="../images/Star1.png" alt="star" className="star" />
           <p className="rating-p">
             {props.item.stats.rating}{" "}
             <span className="state-rate">
